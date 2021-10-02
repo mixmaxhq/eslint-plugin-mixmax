@@ -4,6 +4,7 @@ logs
 
 # Coverage directory used by tools like istanbul
 coverage
+build
 
 # Dependencies & Builds
 /dist
