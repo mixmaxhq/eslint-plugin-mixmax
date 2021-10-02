@@ -17,7 +17,7 @@ export const noTrimStart: TSESLint.RuleModule<'prefer', unknown[]> = {
       category: 'Possible Errors',
       url: 'https://github.com/mixmaxhq/eslint-plugin-mixmax',
       recommended: false,
-      suggestion: true,
+      suggestion: false,
     },
     fixable: 'code',
     schema: [],
@@ -69,8 +69,4 @@ export const noTrimStart: TSESLint.RuleModule<'prefer', unknown[]> = {
       MemberExpression: check,
     };
   },
-};
-
-export const rules = {
-  'no-trim-start': noTrimStart,
 };
