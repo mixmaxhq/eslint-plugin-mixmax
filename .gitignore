@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Dependencies & Builds
+/dist
+/node_modules
+
+# IDE & OS
+.idea/*
+*.sublime-workspace
+.vscode
+.DS_Store
