@@ -55,7 +55,7 @@
     "jest-junit": "^11.0.1",
     "nock": "^11.7.2",
     "prettier": "^2.3.1",
-    "rollup": "^1.32.1",
+    "rollup": "^2.58.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-local-resolve": "^1.0.7",
     "semantic-release": "^17.4.4"
