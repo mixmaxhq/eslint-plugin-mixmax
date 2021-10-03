@@ -13,7 +13,7 @@ export const noTrimStart: TSESLint.RuleModule<'prefer', unknown[]> = {
   meta: {
     type: 'problem',
     docs: {
-      description: 'disallow `String.prototype.trimStart`',
+      description: 'disallow `trimStart`',
       category: 'Possible Errors',
       url: 'https://github.com/mixmaxhq/eslint-plugin-mixmax',
       recommended: false,
