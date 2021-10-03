@@ -13,15 +13,27 @@ const ruleTester = new ESLintUtils.RuleTester({
 });
 
 ruleTester.run('stricter-typescript', stricterTypescript, {
-  valid: [{ code: '(a: any) => a' }],
-
+  valid: [
+    {
+      // Smoke test
+      code: '(a: any) => a',
+    },
+    {
+      // Can disable individual Typescript errors by error code
+      code: `
+        // eslint stricter-typescript: [1, { ts7006: 0 }]
+        (a) => a
+      `,
+    },
+  ],
   invalid: [
     {
+      // Reports Typescript errors
       code: '(a) => a',
       errors: [
         {
           messageId: 'typescriptError',
-          data: { message: "Parameter 'a' implicitly has an 'any' type. (ts 7006)" },
+          data: { message: "Parameter 'a' implicitly has an 'any' type. (ts7006)" },
         },
       ],
     },
