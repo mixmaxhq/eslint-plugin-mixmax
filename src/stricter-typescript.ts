@@ -34,8 +34,8 @@ export const stricterTypescript: TSESLint.RuleModule<'typescriptError', unknown[
     },
   },
   create(context) {
-    // Map of the errors (code and message) keyed by their range as strings: `${start},${end}`
-    const errorMap: Partial<Record<string, Array<[number, string]>>> = {};
+    // Map of the error messages keyed by their range as strings: `${start},${end}`
+    const errorMap: Partial<Record<string, Array<string>>> = {};
 
     const parserServices = ESLintUtils.getParserServices(context);
     const diagnostics = ts.getPreEmitDiagnostics(parserServices.program);
@@ -62,14 +62,13 @@ export const stricterTypescript: TSESLint.RuleModule<'typescriptError', unknown[
           error.length &&
           isOn(error.code)
         ) {
-          const code = error.code;
           const start = error.start;
           const end = error.start + error.length;
           const key = `${start},${end}`;
           const message = formatError(error);
 
-          if (key in errorMap) errorMap[key]?.push([code, message]);
-          else errorMap[key] = [[code, message]];
+          if (key in errorMap) errorMap[key]?.push(message);
+          else errorMap[key] = [message];
         }
       }
     }
