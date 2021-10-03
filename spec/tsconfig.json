@@ -1,3 +1,6 @@
 {
-  "include": [ "file.ts" ]
+  "include": [ "file.ts" ],
+  "compilerOptions": {
+    "noImplicitAny": true
+  }
 }

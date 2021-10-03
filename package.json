@@ -2,7 +2,7 @@
   "name": "@mixmaxhq/eslint-plugin",
   "private": true,
   "version": "1.0.0",
-  "description": "An eslint rule to forbid `String.prototype.trimStart`",
+  "description": "Mixmax's ESLint plugin",
   "main": "dist/node/index.js",
   "files": [
     "dist"
@@ -41,6 +41,7 @@
     "@mixmaxhq/semantic-release-config": "^2.0.2",
     "@mixmaxhq/ts-config": "^2.1.0",
     "@types/jest": "^27.0.2",
+    "@types/lodash": "^4.14.175",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
     "cz-conventional-changelog": "^3.3.0",
