@@ -20,10 +20,8 @@ ruleTester.run('stricter-typescript', stricterTypescript, {
     },
     {
       // Can disable individual Typescript errors by error code
-      code: `
-        // eslint stricter-typescript: [1, { ts7006: 0 }]
-        (a) => a
-      `,
+      code: '(a) => a',
+      options: [{ ts7006: 0 }],
     },
   ],
   invalid: [
