@@ -1,3 +1,17 @@
+## [1.1.0](https://github.com/mixmaxhq/eslint-plugin-mixmax/compare/v1.0.0...v1.1.0) (2021-10-04)
+
+
+### Features
+
+* add `stricter-typescript` rule ([7011c5e](https://github.com/mixmaxhq/eslint-plugin-mixmax/commit/7011c5e6a0b88d5a20b9ae4f939965bd8883b871))
+* allow disabling warnings by TS error code ([89eb540](https://github.com/mixmaxhq/eslint-plugin-mixmax/commit/89eb540d84845799bd861d1b3faf1eb70b0916aa))
+* remove `no-trim-start` rule ([6ffd0e9](https://github.com/mixmaxhq/eslint-plugin-mixmax/commit/6ffd0e9eda552e70a5a6a12a32c1cc4cbc7efb18))
+
+
+### Bug Fixes
+
+* fix previous PR ([793b768](https://github.com/mixmaxhq/eslint-plugin-mixmax/commit/793b7685368023b1ce96ef09964b40ebc0d77b5b))
+
 ## 1.0.0 (2021-10-02)
 
 
