@@ -59,7 +59,7 @@
     "@babel/runtime": "^7.15.4",
     "@mixmaxhq/environment": "^4.0.0",
     "@mixmaxhq/statsd-client": "^1.0.0",
-    "@typescript-eslint/experimental-utils": "^4.32.0",
+    "@typescript-eslint/experimental-utils": "^5.0.0",
     "@typescript-eslint/typescript-estree": "^4.32.0",
     "tsutils": "^3.21.0"
   },
