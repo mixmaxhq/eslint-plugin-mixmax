@@ -26,10 +26,10 @@ export const orOnlyOnBooleans: TSESLint.RuleModule<
     fixable: 'code',
     docs: {
       description: 'disallow || for non-boolean left operands',
-      category: 'Possible Errors',
       url: 'https://github.com/mixmaxhq/eslint-plugin-mixmax#or-only-on-booleans---disallow--with-non-boolean-left-arguments',
       recommended: 'error',
       suggestion: true,
+      requiresTypeChecking: true,
     },
     schema: [],
     messages: {
