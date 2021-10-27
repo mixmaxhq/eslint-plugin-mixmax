@@ -15,10 +15,10 @@ export const stricterTypescript: TSESLint.RuleModule<'typescriptError', unknown[
     type: 'problem',
     docs: {
       description: 'show Typescript errors',
-      category: 'Possible Errors',
       url: 'https://github.com/mixmaxhq/eslint-plugin-mixmax#stricter-typescript--show-typescript-errors-as-warnings',
       recommended: false,
       suggestion: true,
+      requiresTypeChecking: true,
     },
     fixable: 'code',
     schema: [
