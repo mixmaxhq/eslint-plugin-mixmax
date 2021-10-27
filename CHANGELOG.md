@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/mixmaxhq/eslint-plugin-mixmax/compare/v1.1.0...v1.2.0) (2021-10-27)
+
+
+### Features
+
+* new `or-only-on-booleans` rule ([1c34cef](https://github.com/mixmaxhq/eslint-plugin-mixmax/commit/1c34cefab1d6cbe4bed1b151770df95bac489a24))
+
 ## [1.1.0](https://github.com/mixmaxhq/eslint-plugin-mixmax/compare/v1.0.0...v1.1.0) (2021-10-04)
 
 
