@@ -16,7 +16,7 @@ export const stricterTypescript: TSESLint.RuleModule<'typescriptError', unknown[
     docs: {
       description: 'show Typescript errors',
       category: 'Possible Errors',
-      url: 'https://github.com/mixmaxhq/eslint-plugin-mixmax#readme',
+      url: 'https://github.com/mixmaxhq/eslint-plugin-mixmax#stricter-typescript--show-typescript-errors-as-warnings',
       recommended: false,
       suggestion: true,
     },

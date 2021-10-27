@@ -1,6 +1,7 @@
 {
   "include": [ "file.ts" ],
   "compilerOptions": {
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "strictNullChecks": true,
   }
 }

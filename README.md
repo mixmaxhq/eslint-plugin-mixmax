@@ -3,6 +3,7 @@
 - [Mixmax's ESLint plugin](#mixmaxs-eslint-plugin)
 - [How to use](#how-to-use)
 - [Available Rules](#available-rules)
+  - [`or-only-on-booleans` - disallow `||` with non-boolean left arguments](#or-only-on-booleans---disallow--with-non-boolean-left-arguments)
   - [`stricter-typescript` – show Typescript errors as warnings](#stricter-typescript--show-typescript-errors-as-warnings)
     - [The problem](#the-problem)
     - [Proposed solution](#proposed-solution)
@@ -38,6 +39,12 @@ Finally, enable any rules you need by adding them to `.eslintrc.js`, e.g.:
 ```
 
 # Available Rules
+
+## `or-only-on-booleans` - disallow `||` with non-boolean left arguments
+
+This rule will forbid using `||` with a non-boolean left argument, suggesting to either use `??` or cast the left-hand operand to a boolean using `!!`.
+
+This prevents errors like `timeout || DEFAULT_TIMEOUT` not allowing setting `timeout` to `0`.
 
 ## `stricter-typescript` – show Typescript errors as warnings
 
