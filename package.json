@@ -25,7 +25,7 @@
   "contributors": [
     "Jordi Salvat i Alabart <jordi@mixmax.com> (https://mixmax.com)"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mixmaxhq/eslint-plugin-mixmax/issues"
   },
@@ -79,6 +79,6 @@
     "extends": "@mixmaxhq/semantic-release-config"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
