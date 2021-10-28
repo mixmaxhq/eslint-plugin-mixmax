@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/mixmaxhq/eslint-plugin-mixmax/compare/v1.2.0...v1.3.0) (2021-10-28)
+
+
+### Features
+
+* make the repository public ([7d85e1b](https://github.com/mixmaxhq/eslint-plugin-mixmax/commit/7d85e1bcabe319f1c9aeaff0d6693ec412d5e9db))
+
 ## [1.2.0](https://github.com/mixmaxhq/eslint-plugin-mixmax/compare/v1.1.0...v1.2.0) (2021-10-27)
 
 
